@@ -11,6 +11,7 @@
     "@babel/core": "^7.6.2",
     "@react-navigation/native": "react-navigation/native",
     "expo": "^35.0.0",
+    "expo-cli": "^3.1.2",
     "prop-types": "^15.7.2",
     "react": "16.8.3",
     "react-dom": "16.8.3",
