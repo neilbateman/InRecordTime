@@ -1,4 +1,3 @@
-import CreateAccountScreen from '../screens/CreateAccountScreen';
 import LoginScreen from '../screens/LoginScreen';
 import HomeScreen from '../screens/HomeScreen';
 import FeedScreen from '../screens/FeedScreen';
@@ -7,6 +6,8 @@ import MapScreen from '../screens/MapScreen';
 import CommentsScreen from '../screens/CommentsScreen';
 import { createStackNavigator } from 'react-navigation-stack';
 import { createBottomTabNavigator } from 'react-navigation-tabs'
+import CreateRacerScreen from '../screens/CreateRacerScreen';
+import CreateAccountScreen from '../screens/CreateAccountScreen'
 
 const HomeStack = createStackNavigator({
     Home: HomeScreen
@@ -25,7 +26,6 @@ const CommentsStack = createStackNavigator({
 });
 
 const LoginStack = createStackNavigator({
-    Login: LoginScreen,
     CreateAccount: CreateAccountScreen
 });
 

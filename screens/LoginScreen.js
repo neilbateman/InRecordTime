@@ -12,7 +12,7 @@ export default class LoginScreen extends React.Component {
             headerStyle: {
                 backgroundColor: '#f8f8f8'
             },
-            headerTitle: 'Sign In',
+            headerTitle: 'Add Racer',
             headerLeft: null
         };
     };
@@ -154,14 +154,19 @@ export default class LoginScreen extends React.Component {
                 }
 
                 <FormTextInput
-                        placeholder='Email'
+                        placeholder='Name'
                         onChangeText={this.onEmailChange.bind(this)}
                         keyboardType='email-address'
                         autoCapitalize='none'
                 />
 
                 <FormTextInput
-                        placeholder='Password'
+                        placeholder='Age'
+                        onChangeText={this.onPasswordChange.bind(this)}
+                        secureTextEntry={true}
+                />
+                <FormTextInput
+                        placeholder='Sex'
                         onChangeText={this.onPasswordChange.bind(this)}
                         secureTextEntry={true}
                 />
