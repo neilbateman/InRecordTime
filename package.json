@@ -27,6 +27,7 @@
     "react-navigation": "^4.0.10",
     "react-navigation-stack": "^1.9.3",
     "react-navigation-tabs": "^2.5.5",
+    "statman-stopwatch": "^2.11.0",
     "whatwg-fetch": "^2.0.4"
   },
   "devDependencies": {
