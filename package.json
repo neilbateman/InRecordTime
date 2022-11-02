@@ -12,7 +12,7 @@
     "@expo/vector-icons": "^10.0.5",
     "@react-navigation/native": "react-navigation/native",
     "expo": "^35.0.0",
-    "expo-cli": "^3.1.2",
+    "expo-cli": "^6.0.6",
     "moment": "^2.24.0",
     "native-base": "^2.13.8",
     "prop-types": "^15.7.2",
